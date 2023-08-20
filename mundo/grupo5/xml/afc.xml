@@ -1,0 +1,301 @@
+<World>
+    <Confederacion nombre="AFC" sello="../img/afc.jpg" numPais="43">
+        <Continente nombre="Asia" maxPaises="51">
+            <Pais nombre="japon">
+                <Platotipico>../../img/ptJapon1.jpg,../../img/ptJapon2.jpg,../../img/ptJapon3.jpg,../../img/ptJapon4.jpg</Platotipico>
+                <Moneda>El yen (JPY)</Moneda>
+                <Bandera>../../img/banderaJapon.jpg</Bandera>
+                <Provincia nombre="Hokkaido" numCiudades="1">
+                    <Ciudad nombre="Hokkaido (Hokkaido)" codigoPostal="000-0000"/>
+                </Provincia>
+                <Provincia nombre="Tohoku" numCiudades="6">
+                    <Ciudad nombre="Aomori" codigoPostal="030-0000"/>
+                    <Ciudad nombre="Iwate" codigoPostal="020-0000"/>
+                    <Ciudad nombre="Miyagi" codigoPostal="980-0000"/>
+                    <Ciudad nombre="Akita" codigoPostal="010-0000"/>
+                    <Ciudad nombre="Yamagata" codigoPostal="990-0000"/>
+                    <Ciudad nombre="Fukushima" codigoPostal="960-0000"/>
+                </Provincia>
+                <Provincia nombre="Kanto" numCiudades="7">
+                    <Ciudad nombre="Ibaraki" codigoPostal="300-0000"/>
+                    <Ciudad nombre="Tochigi" codigoPostal="320-0000"/>
+                    <Ciudad nombre="Gunma" codigoPostal="370-0000"/>
+                    <Ciudad nombre="Saitama" codigoPostal="330-0000"/>
+                    <Ciudad nombre="Chiba" codigoPostal="260-0000"/>
+                    <Ciudad nombre="Tokyo" codigoPostal="100-0000"/>
+                    <Ciudad nombre="Kanagawa" codigoPostal="230-0000"/>
+                </Provincia>
+                <Provincia nombre="Chubu" numCiudades="9">
+                    <Ciudad nombre="Niigata" codigoPostal="950-0000"/>
+                    <Ciudad nombre="Toyama" codigoPostal="930-0000"/>
+                    <Ciudad nombre="Ishikawa" codigoPostal="920-0000"/>
+                    <Ciudad nombre="Fukui" codigoPostal="910-0000"/>
+                    <Ciudad nombre="Yamanashi" codigoPostal="400-0000"/>
+                    <Ciudad nombre="Nagano" codigoPostal="380-0000"/>
+                    <Ciudad nombre="Gifu" codigoPostal="500-0000"/>
+                    <Ciudad nombre="Shizuoka" codigoPostal="420-0000"/>
+                    <Ciudad nombre="Aichi" codigoPostal="460-0000"/>
+                </Provincia>
+                <Provincia nombre="Kansai" numCiudades="7">
+                    <Ciudad nombre="Mie" codigoPostal="510-0000"/>
+                    <Ciudad nombre="Shiga" codigoPostal="520-0000"/>
+                    <Ciudad nombre="Kyoto" codigoPostal="600-0000"/>
+                    <Ciudad nombre="Osaka" codigoPostal="540-0000"/>
+                    <Ciudad nombre="Hyogo" codigoPostal="650-0000"/>
+                    <Ciudad nombre="Nara" codigoPostal="630-0000"/>
+                    <Ciudad nombre="Wakayama" codigoPostal="640-0000"/>
+                </Provincia>
+                <Provincia nombre="Chugoku" numCiudades="5">
+                    <Ciudad nombre="Tottori" codigoPostal="680-0000"/>
+                    <Ciudad nombre="Shimane" codigoPostal="690-0000"/>
+                    <Ciudad nombre="Okayama" codigoPostal="700-0000"/>
+                    <Ciudad nombre="Hiroshima" codigoPostal="730-0000"/>
+                    <Ciudad nombre="Yamaguchi" codigoPostal="750-0000"/>
+                </Provincia>
+                <Provincia nombre="Shikoku" numCiudades="4">
+                    <Ciudad nombre="Tokushima" codigoPostal="770-0000"/>
+                    <Ciudad nombre="Kagawa" codigoPostal="760-0000"/>
+                    <Ciudad nombre="Ehime" codigoPostal="790-0000"/>
+                    <Ciudad nombre="Kochi" codigoPostal="780-0000"/>
+                </Provincia>
+                <Provincia nombre="Kyushu" numCiudades="7">
+                    <Ciudad nombre="Fukuoka" codigoPostal="810-0000"/>
+                    <Ciudad nombre="Saga" codigoPostal="840-0000"/>
+                    <Ciudad nombre="Nagasaki" codigoPostal="850-0000"/>
+                    <Ciudad nombre="Kumamoto" codigoPostal="860-0000"/>
+                    <Ciudad nombre="Oita" codigoPostal="870-0000"/>
+                    <Ciudad nombre="Miyazaki" codigoPostal="880-0000"/>
+                    <Ciudad nombre="Kagoshima" codigoPostal="890-0000"/>
+                </Provincia>
+                <Provincia nombre="Okinawa" numCiudades="1">
+                    <Ciudad nombre="Okinawa (Okinawa)" codigoPostal="900-0000"/>
+                </Provincia>
+            </Pais>
+            <Pais nombre="malasia">
+                <Platotipico>../../img/ptMalasia1.jpg,../../img/ptMalasia2.jpeg,../../img/ptMalasia3.jpg,../../img/ptMalasia4.jpg</Platotipico>
+                <Moneda>El Ringgit</Moneda>
+                <Bandera>../../img/banderaMalasia.png</Bandera>
+                <Provincia nombre="Johor" numCiudades="3">
+                    <Ciudad nombre="Johor Bahru" codigoPostal="80000"/>
+                    <Ciudad nombre="Muar" codigoPostal="84000"/>
+                    <Ciudad nombre="Kluang" codigoPostal="86000"/>
+                </Provincia>
+                <Provincia nombre="Kedah" numCiudades="3">
+                    <Ciudad nombre="Alor Setar" codigoPostal="05000"/>
+                    <Ciudad nombre="Sungai Petani" codigoPostal="08000"/>
+                    <Ciudad nombre="Langkawi" codigoPostal="07000"/>
+                </Provincia>
+                <Provincia nombre="Kelantan" numCiudades="3">
+                    <Ciudad nombre="Kota Bharu" codigoPostal="15000"/>
+                    <Ciudad nombre="Pasir Mas" codigoPostal="17000"/>
+                    <Ciudad nombre="Tanah Merah" codigoPostal="17500"/>
+                </Provincia>
+                <Provincia nombre="Kuala Lumpur" numCiudades="3">
+                    <Ciudad nombre="Kuala Lumpur" codigoPostal="50000" id="Kuala Lumpur"/>
+                    <Ciudad nombre="Cheras" codigoPostal="56100"/>
+                    <Ciudad nombre="Kepong" codigoPostal="52000"/>
+                </Provincia>
+                <Provincia nombre="Labuan" numCiudades="1">
+                    <Ciudad nombre="Labuan" codigoPostal="87000"/>
+                </Provincia>
+                <Provincia nombre="Malaca" numCiudades="3">
+                    <Ciudad nombre="Malaca" codigoPostal="75000"/>
+                    <Ciudad nombre="Ayer Keroh" codigoPostal="75450"/>
+                    <Ciudad nombre="Alor Gajah" codigoPostal="78000"/>
+                </Provincia>
+                <Provincia nombre="Negeri Sembilan" numCiudades="3">
+                    <Ciudad nombre="Seremban" codigoPostal="70000"/>
+                    <Ciudad nombre="Port Dickson" codigoPostal="71000"/>
+                    <Ciudad nombre="Nilai" codigoPostal="71800"/>
+                </Provincia>
+                <Provincia nombre="Pahang" numCiudades="3">
+                    <Ciudad nombre="Kuantan" codigoPostal="25000"/>
+                    <Ciudad nombre="Temerloh" codigoPostal="28000"/>
+                    <Ciudad nombre="Bentong" codigoPostal="28700"/>
+                </Provincia>
+                <Provincia nombre="Perak" numCiudades="3">
+                    <Ciudad nombre="Ipoh" codigoPostal="30000"/>
+                    <Ciudad nombre="Taiping" codigoPostal="34000"/>
+                    <Ciudad nombre="Teluk Intan" codigoPostal="36000"/>
+                </Provincia>
+                <Provincia nombre="Perlis" numCiudades="2">
+                    <Ciudad nombre="Kangar" codigoPostal="01000"/>
+                    <Ciudad nombre="Arau" codigoPostal="02600"/>
+                </Provincia>
+                <Provincia nombre="Penang" numCiudades="3">
+                    <Ciudad nombre="George Town" codigoPostal="10100"/>
+                    <Ciudad nombre="Butterworth" codigoPostal="12300"/>
+                    <Ciudad nombre="Batu Ferringhi" codigoPostal="11100"/>
+                </Provincia>
+                <Provincia nombre="Putrajaya" numCiudades="1">
+                    <Ciudad nombre="Putrajaya" codigoPostal="62000"/>
+                </Provincia>
+                <Provincia nombre="Sabah" numCiudades="3">
+                    <Ciudad nombre="Kota Kinabalu" codigoPostal="88000"/>
+                    <Ciudad nombre="Sandakan" codigoPostal="90000"/>
+                    <Ciudad nombre="Tawau" codigoPostal="91000"/>
+                </Provincia>
+                <Provincia nombre="Sarawak" numCiudades="3">
+                    <Ciudad nombre="Kuching" codigoPostal="93000"/>
+                    <Ciudad nombre="Miri" codigoPostal="98000"/>
+                    <Ciudad nombre="Sibu" codigoPostal="96000"/>
+                </Provincia>
+                <Provincia nombre="Selangor" numCiudades="3">
+                    <Ciudad nombre="Shah Alam" codigoPostal="40000"/>
+                    <Ciudad nombre="Petaling Jaya" codigoPostal="46200"/>
+                    <Ciudad nombre="Klang" codigoPostal="41000"/>
+                </Provincia>
+                <Provincia nombre="Terengganu" numCiudades="3">
+                    <Ciudad nombre="Kuala Terengganu" codigoPostal="20000"/>
+                    <Ciudad nombre="Dungun" codigoPostal="23000"/>
+                    <Ciudad nombre="Marang" codigoPostal="21600"/>
+                </Provincia>
+            </Pais>
+            <Pais nombre="rusia">
+                <Platotipico>../../img/ptRusia1.jpg,../../img/ptRusia2.jpg,../../img/ptRusia3.jpg,../../img/ptRusia4.jpg</Platotipico>
+                <Moneda>Rublo ruso</Moneda>
+                <Bandera>../../img/banderaRusia.png</Bandera>
+                <Provincia nombre="Distrito Central" numCiudades="17">
+                    <Ciudad nombre="Belgorod" codigoPostal="308000"/>
+                    <Ciudad nombre="Bryansk" codigoPostal="241000"/>
+                    <Ciudad nombre="Vladímir" codigoPostal="600000"/>
+                    <Ciudad nombre="Vorónezh" codigoPostal="394000"/>
+                    <Ciudad nombre="Ivánovo" codigoPostal="153000"/>
+                    <Ciudad nombre="Kaluga" codigoPostal="248000"/>
+                    <Ciudad nombre="Kostroma" codigoPostal="156000"/>
+                    <Ciudad nombre="Kursk" codigoPostal="305000"/>
+                    <Ciudad nombre="Lipetsk" codigoPostal="398000"/>
+                    <Ciudad nombre="Moscú" codigoPostal="101000"/>
+                    <Ciudad nombre="Oriol" codigoPostal="302000"/>
+                    <Ciudad nombre="Riazán" codigoPostal="390000"/>
+                    <Ciudad nombre="Smolensk" codigoPostal="214000"/>
+                    <Ciudad nombre="Tambov" codigoPostal="392000"/>
+                    <Ciudad nombre="Tver" codigoPostal="170000"/>
+                    <Ciudad nombre="Tula" codigoPostal="300000"/>
+                    <Ciudad nombre="Yaroslavl" codigoPostal="150000"/>
+                </Provincia>
+                <Provincia nombre="Distrito Noroeste" numCiudades="15">
+                    <Ciudad nombre="San Petersburgo" codigoPostal="190000"/>
+                    <Ciudad nombre="Murmansk" codigoPostal="183000"/>
+                    <Ciudad nombre="Pskov" codigoPostal="180000"/>
+                    <Ciudad nombre="Arkhangelsk" codigoPostal="163000"/>
+                    <Ciudad nombre="Vólogda" codigoPostal="160000"/>
+                    <Ciudad nombre="Kaliningrado" codigoPostal="236000"/>
+                    <Ciudad nombre="Leningrado" codigoPostal="187000"/>
+                    <Ciudad nombre="Novgorod" codigoPostal="173000"/>
+                    <Ciudad nombre="Petrozavodsk" codigoPostal="185000"/>
+                    <Ciudad nombre="Cherepovets" codigoPostal="162000"/>
+                    <Ciudad nombre="Múrmansk" codigoPostal="183000"/>
+                    <Ciudad nombre="Narváy" codigoPostal="353000"/>
+                    <Ciudad nombre="Pskov" codigoPostal="180000"/>
+                    <Ciudad nombre="Sortavala" codigoPostal="186000"/>
+                    <Ciudad nombre="Sosnovy Bor" codigoPostal="188000"/>
+                    <Ciudad nombre="Víborg" codigoPostal="188000"/>
+                </Provincia>
+                <Provincia nombre="Distrito del Sur" numCiudades="18">
+                    <Ciudad nombre="Rostov del Don" codigoPostal="344000"/>
+                    <Ciudad nombre="Volgogrado" codigoPostal="400000"/>
+                    <Ciudad nombre="Astracán" codigoPostal="414000"/>
+                    <Ciudad nombre="Krasnodar" codigoPostal="350000"/>
+                    <Ciudad nombre="Stávropol" codigoPostal="355000"/>
+                    <Ciudad nombre="Makhachkala" codigoPostal="367000"/>
+                    <Ciudad nombre="Elista" codigoPostal="358000"/>
+                    <Ciudad nombre="Majachkalá" codigoPostal="366000"/>
+                    <Ciudad nombre="Nalchik" codigoPostal="360000"/>
+                    <Ciudad nombre="Kislovodsk" codigoPostal="357000"/>
+                    <Ciudad nombre="Piatigorsk" codigoPostal="357500"/>
+                    <Ciudad nombre="Novorosíisk" codigoPostal="353900"/>
+                    <Ciudad nombre="Armavir" codigoPostal="352900"/>
+                    <Ciudad nombre="Taganrog" codigoPostal="347900"/>
+                    <Ciudad nombre="Shajty" codigoPostal="346000"/>
+                    <Ciudad nombre="Azov" codigoPostal="346780"/>
+                </Provincia>
+                <Provincia nombre="Distrito del Volga" numCiudades="18">
+                    <Ciudad nombre="Nizhni Nóvgorod" codigoPostal="603000"/>
+                    <Ciudad nombre="Samara" codigoPostal="443000"/>
+                    <Ciudad nombre="Uliánovsk" codigoPostal="432000"/>
+                    <Ciudad nombre="Kazán" codigoPostal="420000"/>
+                    <Ciudad nombre="Cheboksary" codigoPostal="428000"/>
+                    <Ciudad nombre="Saransk" codigoPostal="430000"/>
+                    <Ciudad nombre="Ioshkar-Ola" codigoPostal="424000"/>
+                    <Ciudad nombre="Penza" codigoPostal="440000"/>
+                    <Ciudad nombre="Syzran" codigoPostal="446000"/>
+                    <Ciudad nombre="Izhevsk" codigoPostal="426000"/>
+                    <Ciudad nombre="Perm" codigoPostal="614000"/>
+                    <Ciudad nombre="Ufá" codigoPostal="450000"/>
+                    <Ciudad nombre="Saratov" codigoPostal="410000"/>
+                    <Ciudad nombre="Kurgán" codigoPostal="640000"/>
+                    <Ciudad nombre="Oremburgo" codigoPostal="460000"/>
+                    <Ciudad nombre="Barnaul" codigoPostal="656000"/>
+                </Provincia>
+                <Provincia nombre="Distrito del Ural" numCiudades="16">
+                    <Ciudad nombre="Ekaterimburgo" codigoPostal="620000"/>
+                    <Ciudad nombre="Cheliábinsk" codigoPostal="454000"/>
+                    <Ciudad nombre="Tiumén" codigoPostal="625000"/>
+                    <Ciudad nombre="Izhevsk" codigoPostal="426000"/>
+                    <Ciudad nombre="Magnitogorsk" codigoPostal="455000"/>
+                    <Ciudad nombre="Orsk" codigoPostal="462400"/>
+                    <Ciudad nombre="Nizhni Taguil" codigoPostal="622000"/>
+                    <Ciudad nombre="Serov" codigoPostal="624000"/>
+                    <Ciudad nombre="Kurgán" codigoPostal="640000"/>
+                    <Ciudad nombre="Nizhnevártovsk" codigoPostal="628600"/>
+                    <Ciudad nombre="Kamensk-Uralsky" codigoPostal="623400"/>
+                    <Ciudad nombre="Novotroitsk" codigoPostal="462390"/>
+                    <Ciudad nombre="Nefteyugansk" codigoPostal="628300"/>
+                    <Ciudad nombre="Serguéi Posad" codigoPostal="141300"/>
+                    <Ciudad nombre="Kachkanar" codigoPostal="624230"/>
+                </Provincia>
+                <Provincia nombre="Distrito de Siberia" numCiudades="16">
+                    <Ciudad nombre="Novosibirsk" codigoPostal="630000"/>
+                    <Ciudad nombre="Omsk" codigoPostal="644000"/>
+                    <Ciudad nombre="Kemerovo" codigoPostal="650000"/>
+                    <Ciudad nombre="Tomsk" codigoPostal="634000"/>
+                    <Ciudad nombre="Barnaul" codigoPostal="656000"/>
+                    <Ciudad nombre="Novokuznetsk" codigoPostal="654000"/>
+                    <Ciudad nombre="Irkutsk" codigoPostal="664000"/>
+                    <Ciudad nombre="Krasnoyarsk" codigoPostal="660000"/>
+                    <Ciudad nombre="Ulan-Udé" codigoPostal="670000"/>
+                    <Ciudad nombre="Chita" codigoPostal="672000"/>
+                    <Ciudad nombre="Birobidzhán" codigoPostal="679000"/>
+                    <Ciudad nombre="Bratsk" codigoPostal="665700"/>
+                    <Ciudad nombre="Ulan-Udé" codigoPostal="670000"/>
+                    <Ciudad nombre="Irkutsk" codigoPostal="664000"/>
+                    <Ciudad nombre="Kemerovo" codigoPostal="650000"/>
+                </Provincia>
+                <Provincia nombre="Distrito del Lejano Oriente" numCiudades="15">
+                    <Ciudad nombre="Vladivostok" codigoPostal="690000"/>
+                    <Ciudad nombre="Komsomolsk del Amur" codigoPostal="681000"/>
+                    <Ciudad nombre="Birobidzhán" codigoPostal="679000"/>
+                    <Ciudad nombre="Yakutsk" codigoPostal="677000"/>
+                    <Ciudad nombre="Chita" codigoPostal="672000"/>
+                    <Ciudad nombre="Magadán" codigoPostal="685000"/>
+                    <Ciudad nombre="Anádyr" codigoPostal="689000"/>
+                    <Ciudad nombre="Petropávlovsk-Kamchatski" codigoPostal="683000"/>
+                    <Ciudad nombre="Korsakov" codigoPostal="693000"/>
+                    <Ciudad nombre="Kamchatski" codigoPostal="683000"/>
+                    <Ciudad nombre="Uliánovsk" codigoPostal="432000"/>
+                    <Ciudad nombre="Khabarovsk" codigoPostal="680000"/>
+                    <Ciudad nombre="Yuzhno-Sajalinsk" codigoPostal="693000"/>
+                    <Ciudad nombre="Jabárovsk" codigoPostal="680000"/>
+                    <Ciudad nombre="Yakutsk" codigoPostal="677000"/>
+                </Provincia>
+                <Provincia nombre="Distrito del Norte del Cáucaso" numCiudades="15">
+                    <Ciudad nombre="Stávropol" codigoPostal="355000"/>
+                    <Ciudad nombre="Jasaviurt" codigoPostal="368500"/>
+                    <Ciudad nombre="Elista" codigoPostal="358000"/>
+                    <Ciudad nombre="Majachkalá" codigoPostal="367000"/>
+                    <Ciudad nombre="Vladikavkaz" codigoPostal="362000"/>
+                    <Ciudad nombre="Nálchik" codigoPostal="360000"/>
+                    <Ciudad nombre="Cherkessk" codigoPostal="369000"/>
+                    <Ciudad nombre="Piatigorsk" codigoPostal="357500"/>
+                    <Ciudad nombre="Derbent" codigoPostal="368600"/>
+                    <Ciudad nombre="Grozni" codigoPostal="364000"/>
+                    <Ciudad nombre="Mozdok" codigoPostal="361200"/>
+                </Provincia>
+            </Pais>
+        </Continente>
+        <Organizacion lugar="ASIA" sede="Kuala Lumpur" tipo="BRICS,G8"/>
+    </Confederacion>
+
+    <!-- ... Otros continentes y confederaciones ... -->
+</World>
