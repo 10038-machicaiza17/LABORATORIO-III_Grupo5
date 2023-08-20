@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ASIA</title>
+    <title>AFC</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -59,7 +59,7 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-paisheader d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5 mb-5">
-        <h1 class="display-4 text-white mb-3 mt-0 mt-lg-5">PAISES</h1>
+        <h1 class="display-4 text-white mb-3 mt-0 mt-lg-5">AFC</h1>
         <div class="d-inline-flex text-white">
             <p class="m-0"><a class="text-white" href="">Inicio</a></p>
             <p class="m-0 px-2">/</p>
@@ -96,48 +96,7 @@
     // Crear una instancia de AFC con los datos necesarios
     $afc = new AFC("Asia", 50, "../img/afc.jpg", 47, Continentes::ASIA, new Ciudad($sede, $codigoPostalSede), ONG::BRICS);
 
-    $afc->imprimir();
-    
-    // Leer y procesar el archivo XML
-
-    $html = <<<html
-    <div class="table-responsive custom-table-responsive">
-    <table class="table custom-table" style="text-align:center;">
-        <thead>
-        <tr>
-            <th scope="col">Order</th>
-            <th scope="col">Name</th>
-            <th scope="col">Description</th>
-            <th scope="col">Contact</th>
-            <th scope="col">Education</th>
-        </tr>
-        </thead>
-        <tbody>
-    html;
-
-    $counter = 1; // Inicializar el contador
-
-    foreach ($xml->Confederacion->Continente->Pais as $pais) {
-        $html .= <<<html
-        <tr>
-            <td>{$counter}</td>
-            <td><a href='paises/{$pais['nombre']}.php?nombre={$pais['nombre']}'>{$pais['nombre']}</a></td>
-            <td>Far far away, behind the word mountains</td>
-            <td>+63 983 0962 971</td>
-            <td>NY University</td>
-        </tr>
-        <tr class="spacer"><td colspan="100"></td></tr>
-    html;
-        $counter++; // Incrementar el contador
-    }
-
-    $html .= <<<html
-        </tbody>
-    </table>
-    </div>
-    html;
-
-    echo $html;
+    $afc->imprimirTabla();
 
     ?>
 

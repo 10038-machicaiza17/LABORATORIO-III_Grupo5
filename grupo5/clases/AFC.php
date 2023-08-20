@@ -4,6 +4,7 @@ require_once("Continente.php");
 require_once("Organizacion.php");
 require_once("Ciudad.php"); // Agregar las clases necesarias
 
+
 class AFC extends Continente implements Organizacion {
     private $sello;
     private $numPais;
@@ -96,23 +97,46 @@ class AFC extends Continente implements Organizacion {
                 return "Desconocido";
         }
     }
-    // public function imprimirTabla($xmlContent) {
-    //     $xml = simplexml_load_string($xmlContent);
+    public function imprimirTabla() {
+        $xml = simplexml_load_file("../xml/afc.xml");
+        $html = <<<html
+        <div class="table-responsive custom-table-responsive">
+            <table class="table custom-table">
+                <thead>
+                    <tr>
+                        <th scope='col'>Campo</th>
+                        <th scope='col'>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Continente</td><td>{$this->nombreConti}</td></tr>
+                    <tr><td>Sello</td><td><img src='{$this->sello}' alt='Sello' style='max-width: 150px;'></td></tr>
+                    <tr><td>Número máximo de Países</td><td>{$this->maxPaises}</td></tr>
+                    <tr><td>Número de Países Asociados</td><td>{$this->numPais}</td></tr>
+                    <tr><td>Lugar</td><td>{$this->getLugarNombre($this->lugar)}</td></tr>
+                    <tr><td>Sede</td><td>{$this->sede->getNombreCiudad()} (Código postal: {$this->sede->getCodigoPostal()})</td></tr>
+                    <tr><td>ONG</td><td>{$this->getTipoNombre($this->tipo)}</td></tr>
+                    <tr>
+                        <td>Paises</td>
+                        <td>
+                            <ol>
+        html;
+                                foreach ($xml->Confederacion->Continente->Pais as $pais) {
+                                    $html .= "<li><a href='paises/{$pais['nombre']}.php?nombre={$pais['nombre']}'>{$pais['nombre']}</a></li>";
+                                }
+        $html .= <<<html
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        html;
 
-    //     echo "<table border='1'>
-    //             <tr>
-    //                 <th>Continente</th>
-    //                 <th>Confederación</th>
-    //                 <th>Sede</th>
-    //                 <th>Tipo</th>
-    //                 <th>Países</th>
-    //             </tr>";
-
-    //     // Fill in the row data here
-    //     // Use $xml->Provincia->Ciudad->CodigoPostal for postal code
-
-    //     echo "</table>";
-    // }
+        // Imprimir el contenido HTML generado
+        echo $html;
+    }
+    
 }
 
 ?>
